@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Compliments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>You Couldn't Resist, Could You? 😘</h1>
+    <div class="compliments-container">
+        <p>You are amazing!</p>
+        <p>Your smile brightens my day!</p>
+        <p>You have an amazing sense of humor.</p>
+        <p>Your creativity is boundless.</p>
+        <p>You light up the room wherever you go.</p>
+        <p>Your smile is contagious.</p>
+        <p>You bring out the best in others.</p>
+        <p>You're an inspiration to everyone around you.</p>
+        <p>Your positivity is infectious.</p>
+        <p>You have a heart of gold.</p>
+        <p>Your kindness knows no bounds.</p>
+        <p>You're an incredible friend.</p>
+        <p>You have a fantastic work ethic.</p>
+        <p>Your intelligence is impressive.</p>
+        <p>You make the world a better place.</p>
+        <p>Your laughter is the best sound.</p>
+        <p>You have a unique and wonderful perspective.</p>
+        <p>Your confidence is inspiring.</p>
+        <p>You are so thoughtful and considerate.</p>
+        <p>Your passion is contagious.</p>
+        <p>You have an incredible sense of style.</p>
+        <p>You're a great listener.</p>
+        <p>You make even the simplest moments special.</p>
+        <p>Your determination is admirable.</p>
+        <p>You have a great sense of adventure.</p>
+        <p>Your optimism is refreshing.</p>
+        <p>You are incredibly talented.</p>
+        <p>You have a beautiful soul.</p>
+        <p>Your ideas are always so innovative.</p>
+        <p>You bring so much joy to those around you.</p>
+        <p>Your strength is awe-inspiring.</p>
+        <p>You have a magnetic personality.</p>
+        <p>You are always so reliable.</p>
+        <p>Your enthusiasm is unmatched.</p>
+        <p>You're a ray of sunshine on a cloudy day.</p>
+        <p>Your kindness makes a difference.</p>
+        <p>You have a wonderful sense of humor.</p>
+        <p>Your compassion is truly remarkable.</p>
+        <p>You have a gift for making people feel special.</p>
+        <p>Your insight is always spot-on.</p>
+        <p>You are so courageous.</p>
+        <p>Your curiosity is a breath of fresh air.</p>
+        <p>You are a true original.</p>
+        <p>Your resilience is inspiring.</p>
+        <p>You're so good at what you do.</p>
+        <p>You have a great way with words.</p>
+        <p>Your joy is infectious.</p>
+        <p>You are a true gem.</p>
+        <p>You make people feel valued and appreciated.</p>
+        <p>You have a fantastic sense of humor.</p>
+        <p>Your presence makes everything better.</p>
+        <p>You are so generous and giving.</p>
+        <p>Your perspective is always so insightful.</p>
+        <p>You're a breath of fresh air.</p>
+        <p>Your creativity is amazing.</p>
+        <p>You are an incredible human being.</p>
+        <p>Your positivity is a gift to everyone around you.</p>
+        <p>Your energy is invigorating.</p>
+        <p>You have a warm and welcoming spirit.</p>
+        <p>You make the world a brighter place.</p>
+        <p>Your kindness is truly extraordinary.</p>
+        <p>You have an incredible ability to uplift others.</p>
+        <p>Your sense of humor brightens my day.</p>
+        <p>You have a remarkable ability to see the best in people.</p>
+        <p>Your determination is truly inspiring.</p>
+        <p>You have an amazing ability to make others feel special.</p>
+        <p>Your spirit is full of love and light.</p>
+        <p>You have a rare and special gift.</p>
+        <p>Your positivity is a beacon of hope.</p>
+        <p>You are one of a kind.</p>
+
+    </div>
+    <div class ="finale">
+        <h2>I LOVE YOU BABE TILL DEATH DOES US APART!</h2>
+    </div>
+
+    <div id="emojiContainer"></div>
+
+    <script>
+        // Auto-throw heart emojis on this page
+        setInterval(function() {
+            let emoji = document.createElement('div');
+            emoji.classList.add('emoji');
+            emoji.innerHTML = '❤️';
+            emoji.style.left = Math.random() * 100 + 'vw';
+            emoji.style.animationDuration = Math.random() * 2 + 3 + 's';
+            document.getElementById('emojiContainer').appendChild(emoji);
+            
+            setTimeout(() => {
+                emoji.remove();
+            }, 5000);
+        }, 300);
+    </script>
+</body>
+</html>
